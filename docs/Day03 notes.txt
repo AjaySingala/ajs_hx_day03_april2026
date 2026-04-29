@@ -27,3 +27,27 @@ Instead of human-in-the-loop:
 	- role: critique the actions provided and give me a much better recommendation.
 	
 1 node -> 1 or more tools
+
+Mythos
+
+
+Verify:
+- are the old features working as-is.
+- did it break anything that was already working
+
+2 days:
+- the agent (claude) - DELETED ENTIRE DB
+
+Post on X (Twitter)
+- $15000
+
+3 days later
+- SOS!!!
+HELP!!!
+DDOS attacks. What do i do?
+Security
+
+AI Governance:
+- expert/senior who will verify
+- human
+XAI
