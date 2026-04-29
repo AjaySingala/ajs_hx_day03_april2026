@@ -1,0 +1,29 @@
+Agent vs Agentic AI (Workflow)
+- Agent 
+	- Sigle agent
+- Agentic AI
+	- Multiple agents
+	- working in tandem
+	- each agent performing 1 task
+	- eventually the WF giving an output/response
+Memory/state
+
+@tool: decorator
+	- LangGraph
+	
+SOLID Principles
+S - Single Responsibilty / Separation of Concerns
+
+Use a different Model if rejected by human/logic
+1 round of recommendations:
+	gpt-4-mini
+Human: no.
+	- if "no", use different model -> gpt-5.5, claude sonnet, deepseek
+
+Instead of human-in-the-loop:
+	- add one more node -> tool
+	- ask it to improve on the recommendations provided
+	- use different model -> gpt-5.5, claude sonnet, deepseek
+	- role: critique the actions provided and give me a much better recommendation.
+	
+1 node -> 1 or more tools
